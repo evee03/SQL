@@ -1,0 +1,3 @@
+W pliku txt znajdują się zapytania odnoszące się do zdjęcia bazy danych sklepu internetowego. Są to przykładowe zapytania do tej bazy, które stworzyłam podczas przygotowań do kolokwium. Celem tych zapytań jest ilustracja różnych operacji, jakie można wykonać na bazie danych sklepu internetowego, takich jak wyszukiwanie produktów, zarządzanie zamówieniami, czy obsługa klientów.
+
+StrukturaDanychSklepuInternetowego.png-schemat został przygotowany przez osobę tworzącą skrypt do laboratoriów przedmiotu.
