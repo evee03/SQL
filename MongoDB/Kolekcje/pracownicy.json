@@ -1,0 +1,377 @@
+
+      {
+        "_id": { "$oid": "644b10b56f62a6dbee999999" },
+        "imie": "Anna",
+        "nazwisko": "Nowak",
+        "filia": {
+          "nazwa": "Filia nr 2",
+          "ulica": "Szkolna",
+          "nr_domu": "10",
+          "miasto": "Kraków",
+          "kod_pocztowy": "30-001",
+          "telefon": "987-654-321"
+        },
+        "zamowienia": [
+          {
+            "nazwa": "Podręczniki matematyczne",
+            "data_zamowienia": "2025-04-01",
+            "dostawcy": ["Dostawca A", "Dostawca B"],
+            "wartosc": 1200,
+            "towary": [
+              { "nazwa": "Algebra", "ilosc": 5, "cena": 100 },
+              { "nazwa": "Geometria", "ilosc": 7, "cena": 80 }
+            ]
+          }
+        ],
+        "urlopy": [
+          {
+            "data_poczatkowa": "2025-05-01",
+            "data_koncowa": "2025-05-10",
+            "typ_urlopu": "Wypoczynkowy"
+          }
+        ],
+        "stanowisko": "Bibliotekarz",
+        "data_zatrudnienia": "2022-01-15",
+        "status": "Aktywny",
+        "kontakt": {
+          "telefon": "123-456-789",
+          "email": "anna.nowak@biblioteka.pl"
+        }
+      }
+      {
+        "_id": { "$oid": "644b10b56f62a6dbee999998" },
+        "imie": "Jan",
+        "nazwisko": "Kowalski",
+        "filia": {
+          "nazwa": "Filia nr 1",
+          "ulica": "Mickiewicza",
+          "nr_domu": "5",
+          "miasto": "Warszawa",
+          "kod_pocztowy": "00-001",
+          "telefon": "111-222-333"
+        },
+        "zamowienia": [
+          {
+            "nazwa": "Książki historyczne",
+            "data_zamowienia": "2024-12-15",
+            "dostawcy": ["Dostawca X"],
+            "wartosc": 800,
+            "towary": [
+              { "nazwa": "Historia Polski", "ilosc": 10, "cena": 50 },
+              { "nazwa": "Historia Europy", "ilosc": 5, "cena": 80 }
+            ]
+          }
+        ],
+        "urlopy": [
+          {
+            "data_poczatkowa": "2025-03-10",
+            "data_koncowa": "2025-03-15",
+            "typ_urlopu": "Na żądanie"
+          }
+        ],
+        "stanowisko": "Kierownik",
+        "data_zatrudnienia": "2020-06-01",
+        "status": "Aktywny",
+        "kontakt": {
+          "telefon": "333-444-555",
+          "email": "jan.kowalski@biblioteka.pl"
+        }
+      }
+      {
+        "_id": { "$oid": "644b10b56f62a6dbee999997" },
+        "imie": "Ewa",
+        "nazwisko": "Wiśniewska",
+        "filia": {
+          "nazwa": "Filia nr 3",
+          "ulica": "Jana Pawła II",
+          "nr_domu": "20",
+          "miasto": "Wrocław",
+          "kod_pocztowy": "50-001",
+          "telefon": "444-555-666"
+        },
+        "zamowienia": [
+          {
+            "nazwa": "Literatura piękna",
+            "data_zamowienia": "2025-02-20",
+            "dostawcy": ["Dostawca Y", "Dostawca Z"],
+            "wartosc": 1500,
+            "towary": [
+              { "nazwa": "Powieść 1", "ilosc": 20, "cena": 50 },
+              { "nazwa": "Powieść 2", "ilosc": 15, "cena": 70 }
+            ]
+          }
+        ],
+        "urlopy": [
+          {
+            "data_poczatkowa": "2025-06-01",
+            "data_koncowa": "2025-06-15",
+            "typ_urlopu": "Macierzyński"
+          }
+        ],
+        "stanowisko": "Asystent",
+        "data_zatrudnienia": "2021-03-10",
+        "status": "Na urlopie",
+        "kontakt": {
+          "telefon": "555-666-777",
+          "email": "ewa.wisniewska@biblioteka.pl"
+        }
+      }
+      {
+        "_id": { "$oid": "644b10b56f62a6dbee999996" },
+        "imie": "Piotr",
+        "nazwisko": "Zieliński",
+        "filia": {
+          "nazwa": "Filia nr 4",
+          "ulica": "Długa",
+          "nr_domu": "8",
+          "miasto": "Gdańsk",
+          "kod_pocztowy": "80-001",
+          "telefon": "666-777-888"
+        },
+        "zamowienia": [
+          {
+            "nazwa": "Książki naukowe",
+            "data_zamowienia": "2025-03-12",
+            "dostawcy": ["Dostawca C"],
+            "wartosc": 2000,
+            "towary": [
+              { "nazwa": "Fizyka", "ilosc": 10, "cena": 150 },
+              { "nazwa": "Biologia", "ilosc": 15, "cena": 120 }
+            ]
+          },
+          {
+            "nazwa": "Encyklopedie",
+            "data_zamowienia": "2025-02-10",
+            "dostawcy": ["Dostawca B"],
+            "wartosc": 3000,
+            "towary": [
+              { "nazwa": "Encyklopedia A", "ilosc": 5, "cena": 600 },
+              { "nazwa": "Encyklopedia B", "ilosc": 3, "cena": 800 }
+            ]
+          }
+        ],
+        "urlopy": [],
+        "stanowisko": "Administrator",
+        "data_zatrudnienia": "2019-09-01",
+        "status": "Aktywny",
+        "kontakt": {
+          "telefon": "777-888-999",
+          "email": "piotr.zielinski@biblioteka.pl"
+        }
+      }
+      {
+        "_id": { "$oid": "644b10b56f62a6dbee999995" },
+        "imie": "Katarzyna",
+        "nazwisko": "Maj",
+        "filia": {
+          "nazwa": "Filia nr 5",
+          "ulica": "Lipowa",
+          "nr_domu": "12A",
+          "miasto": "Poznań",
+          "kod_pocztowy": "60-001",
+          "telefon": "888-999-000"
+        },
+        "zamowienia": [
+          {
+            "nazwa": "Komiksy",
+            "data_zamowienia": "2024-11-25",
+            "dostawcy": ["Dostawca X"],
+            "wartosc": 500,
+            "towary": [
+              { "nazwa": "Batman", "ilosc": 10, "cena": 50 },
+              { "nazwa": "Superman", "ilosc": 8, "cena": 60 }
+            ]
+          }
+        ],
+        "urlopy": [
+          {
+            "data_poczatkowa": "2025-01-05",
+            "data_koncowa": "2025-01-15",
+            "typ_urlopu": "Wypoczynkowy"
+          }
+        ],
+        "stanowisko": "Bibliotekarz",
+        "data_zatrudnienia": "2023-07-10",
+        "status": "Aktywny",
+        "kontakt": {
+          "telefon": "999-000-111",
+          "email": "katarzyna.maj@biblioteka.pl"
+        }
+      }
+      {
+        "_id": { "$oid": "644b10b56f62a6dbee999994" },
+        "imie": "Tomasz",
+        "nazwisko": "Dąbrowski",
+        "filia": {
+          "nazwa": "Filia nr 6",
+          "ulica": "Ogrodowa",
+          "nr_domu": "3B",
+          "miasto": "Lublin",
+          "kod_pocztowy": "20-001",
+          "telefon": "444-333-222"
+        },
+        "zamowienia": [],
+        "urlopy": [
+          {
+            "data_poczatkowa": "2025-07-01",
+            "data_koncowa": "2025-07-20",
+            "typ_urlopu": "Wypoczynkowy"
+          },
+          {
+            "data_poczatkowa": "2024-12-01",
+            "data_koncowa": "2024-12-15",
+            "typ_urlopu": "Okolicznościowy"
+          }
+        ],
+        "stanowisko": "Technik",
+        "data_zatrudnienia": "2018-05-10",
+        "status": "Na urlopie",
+        "kontakt": {
+          "telefon": "333-444-555",
+          "email": "tomasz.dabrowski@biblioteka.pl"
+        }
+      }
+      {
+        "_id": { "$oid": "644b10b56f62a6dbee999993" },
+        "imie": "Monika",
+        "nazwisko": "Szymańska",
+        "filia": {
+          "nazwa": "Filia nr 7",
+          "ulica": "Kwiatowa",
+          "nr_domu": "7",
+          "miasto": "Łódź",
+          "kod_pocztowy": "90-001",
+          "telefon": "555-444-333"
+        },
+        "zamowienia": [
+          {
+            "nazwa": "Książki dziecięce",
+            "data_zamowienia": "2025-03-05",
+            "dostawcy": ["Dostawca Z"],
+            "wartosc": 1000,
+            "towary": [
+              { "nazwa": "Bajki", "ilosc": 20, "cena": 30 },
+              { "nazwa": "Opowieści", "ilosc": 15, "cena": 40 }
+            ]
+          }
+        ],
+        "urlopy": [],
+        "stanowisko": "Starszy bibliotekarz",
+        "data_zatrudnienia": "2016-10-20",
+        "status": "Aktywny",
+        "kontakt": {
+          "telefon": "666-777-888",
+          "email": "monika.szymanska@biblioteka.pl"
+        }
+      }
+      {
+        "_id": { "$oid": "644b10b56f62a6dbee999992" },
+        "imie": "Marek",
+        "nazwisko": "Wójcik",
+        "filia": {
+          "nazwa": "Filia nr 8",
+          "ulica": "Leśna",
+          "nr_domu": "15",
+          "miasto": "Szczecin",
+          "kod_pocztowy": "70-001",
+          "telefon": "222-333-444"
+        },
+        "zamowienia": [
+          {
+            "nazwa": "Audiobooki",
+            "data_zamowienia": "2025-01-10",
+            "dostawcy": ["Dostawca D"],
+            "wartosc": 1800,
+            "towary": [
+              { "nazwa": "Kryminał", "ilosc": 25, "cena": 50 },
+              { "nazwa": "Fantastyka", "ilosc": 15, "cena": 70 }
+            ]
+          }
+        ],
+        "urlopy": [
+          {
+            "data_poczatkowa": "2025-04-15",
+            "data_koncowa": "2025-04-30",
+            "typ_urlopu": "Wypoczynkowy"
+          }
+        ],
+        "stanowisko": "Specjalista ds. multimediów",
+        "data_zatrudnienia": "2020-11-05",
+        "status": "Aktywny",
+        "kontakt": {
+          "telefon": "888-999-111",
+          "email": "marek.wojcik@biblioteka.pl"
+        }
+      }
+      {
+        "_id": { "$oid": "644b10b56f62a6dbee999991" },
+        "imie": "Agnieszka",
+        "nazwisko": "Kaczmarek",
+        "filia": {
+          "nazwa": "Filia nr 9",
+          "ulica": "Polna",
+          "nr_domu": "22",
+          "miasto": "Bydgoszcz",
+          "kod_pocztowy": "85-001",
+          "telefon": "777-666-555"
+        },
+        "zamowienia": [
+          {
+            "nazwa": "Czasopisma",
+            "data_zamowienia": "2025-02-28",
+            "dostawcy": ["Dostawca E", "Dostawca F"],
+            "wartosc": 900,
+            "towary": [
+              { "nazwa": "National Geographic", "ilosc": 12, "cena": 25 },
+              { "nazwa": "Focus", "ilosc": 10, "cena": 30 }
+            ]
+          }
+        ],
+        "urlopy": [],
+        "stanowisko": "Bibliotekarz",
+        "data_zatrudnienia": "2022-09-15",
+        "status": "Aktywny",
+        "kontakt": {
+          "telefon": "555-444-333",
+          "email": "agnieszka.kaczmarek@biblioteka.pl"
+        }
+      }
+      {
+        "_id": { "$oid": "644b10b56f62a6dbee999990" },
+        "imie": "Robert",
+        "nazwisko": "Lewandowski",
+        "filia": {
+          "nazwa": "Filia nr 10",
+          "ulica": "Sportowa",
+          "nr_domu": "1",
+          "miasto": "Gdynia",
+          "kod_pocztowy": "81-001",
+          "telefon": "999-888-777"
+        },
+        "zamowienia": [
+          {
+            "nazwa": "Mapy i atlasy",
+            "data_zamowienia": "2024-10-10",
+            "dostawcy": ["Dostawca G"],
+            "wartosc": 1200,
+            "towary": [
+              { "nazwa": "Atlas świata", "ilosc": 8, "cena": 100 },
+              { "nazwa": "Mapa Polski", "ilosc": 10, "cena": 40 }
+            ]
+          }
+        ],
+        "urlopy": [
+          {
+            "data_poczatkowa": "2025-08-01",
+            "data_koncowa": "2025-08-14",
+            "typ_urlopu": "Wypoczynkowy"
+          }
+        ],
+        "stanowisko": "Kierownik działu",
+        "data_zatrudnienia": "2017-04-10",
+        "status": "Aktywny",
+        "kontakt": {
+          "telefon": "111-222-333",
+          "email": "robert.lewandowski@biblioteka.pl"
+        }
+      }

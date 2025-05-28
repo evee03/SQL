@@ -1,0 +1,255 @@
+
+    {
+      "_id": { "$oid": "607f1f77bcf86cd799431001" },
+      "imie": "Anna",
+      "nazwisko": "Kowalska",
+      "pesel": "90010112345",
+      "data_ur": "1990-01-01",
+      "plec": "K",
+      "miejscowość": "Lublin",
+      "ulica": "Krańcowa",
+      "nr_domu": "15A",
+      "nr_mieszkania": "7",
+      "dane_logowania": {
+        "login": "akowalska",
+        "haslo": "$2a$10$N9qo8uLOickgx2ZMRZoMy..."
+      },
+      "recenzja_id": { "$oid": "607f1f77bcf86cd799432001" },
+      "idWypozyczenie": { "$oid": "507f1f77bcf86cd799439011" },
+      "rezerwacja": {
+        "nr_w_kolejce": null,
+        "status": null,
+        "data_anulowania": null,
+        "data_utworzenia": null,
+        "data_realizacji": null,
+        "idCzytelnik": { "$oid": "607f1f77bcf86cd799431001" },
+        "idPozycja": null
+      }
+    }
+    {
+      "_id": { "$oid": "607f1f77bcf86cd799431002" },
+      "imie": "Piotr",
+      "nazwisko": "Nowak",
+      "pesel": "88020254321",
+      "data_ur": "1988-02-02",
+      "plec": "M",
+      "miejscowość": "Warszawa",
+      "ulica": "Miodowa",
+      "nr_domu": "10",
+      "nr_mieszkania": "3",
+      "dane_logowania": {
+        "login": "pnowak",
+        "haslo": "$2a$10$ZAlR1nNuo2..."
+      },
+      "recenzja_id": { "$oid": "607f1f77bcf86cd799432002" },
+      "idWypozyczenie": { "$oid": "507f1f77bcf86cd799439012" },
+      "rezerwacja": {
+        "nr_w_kolejce": 2,
+        "status": "aktywna",
+        "data_utworzenia": "2024-01-10",
+        "idCzytelnik": { "$oid": "607f1f77bcf86cd799431002" },
+        "idPozycja": { "$oid": "607f1f77bcf86cd799433001" }
+      }
+    }
+    {
+      "_id": { "$oid": "607f1f77bcf86cd799431003" },
+      "imie": "Maria",
+      "nazwisko": "Wiśniewska",
+      "pesel": "95030398765",
+      "data_ur": "1995-03-03",
+      "plec": "K",
+      "miejscowość": "Kraków",
+      "ulica": "Floriańska",
+      "nr_domu": "5",
+      "nr_mieszkania": null,
+      "dane_logowania": {
+        "login": "mwisniewska",
+        "haslo": "$2a$10$KJh897snd72..."
+      },
+      "recenzja_id": { "$oid": "607f1f77bcf86cd799432003" },
+      "idWypozyczenie": { "$oid": "507f1f77bcf86cd799439013" },
+      "rezerwacja": {
+        "nr_w_kolejce": null,
+        "status": "zrealizowana",
+        "data_realizacji": "2024-02-15",
+        "idCzytelnik": { "$oid": "607f1f77bcf86cd799431003" },
+        "idPozycja": { "$oid": "607f1f77bcf86cd799433002" }
+      }
+    }
+    {
+      "_id": { "$oid": "607f1f77bcf86cd799431004" },
+      "imie": "Jan",
+      "nazwisko": "Kowalski",
+      "pesel": "92040445678",
+      "data_ur": "1992-04-04",
+      "plec": "M",
+      "miejscowość": "Gdańsk",
+      "ulica": "Długa",
+      "nr_domu": "8",
+      "nr_mieszkania": "12",
+      "dane_logowania": {
+        "login": "jkowalski",
+        "haslo": "$2a$10$Hjsn627bsh2..."
+      },
+      "recenzja_id": { "$oid": "607f1f77bcf86cd799432004" },
+      "idWypozyczenie": { "$oid": "507f1f77bcf86cd799439014" },
+      "rezerwacja": {
+        "nr_w_kolejce": 1,
+        "status": "oczekująca",
+        "data_utworzenia": "2024-03-01",
+        "idCzytelnik": { "$oid": "607f1f77bcf86cd799431004" },
+        "idPozycja": { "$oid": "607f1f77bcf86cd799433003" }
+      }
+    }
+    {
+      "_id": { "$oid": "607f1f77bcf86cd799431005" },
+      "imie": "Katarzyna",
+      "nazwisko": "Lewandowska",
+      "pesel": "87050565432",
+      "data_ur": "1987-05-05",
+      "plec": "K",
+      "miejscowość": "Poznań",
+      "ulica": "Święty Marcin",
+      "nr_domu": "22",
+      "nr_mieszkania": null,
+      "dane_logowania": {
+        "login": "klewandowska",
+        "haslo": "$2a$10$Lksn827ns72..."
+      },
+      "recenzja_id": { "$oid": "607f1f77bcf86cd799432005" },
+      "idWypozyczenie": { "$oid": "507f1f77bcf86cd799439015" },
+      "rezerwacja": {
+        "nr_w_kolejce": null,
+        "status": "anulowana",
+        "data_anulowania": "2024-01-20",
+        "idCzytelnik": { "$oid": "607f1f77bcf86cd799431005" },
+        "idPozycja": { "$oid": "607f1f77bcf86cd799433004" }
+      }
+    }
+    {
+      "_id": { "$oid": "607f1f77bcf86cd799431006" },
+      "imie": "Andrzej",
+      "nazwisko": "Dąbrowski",
+      "pesel": "91060678901",
+      "data_ur": "1991-06-06",
+      "plec": "M",
+      "miejscowość": "Wrocław",
+      "ulica": "Rynek",
+      "nr_domu": "14",
+      "nr_mieszkania": "5",
+      "dane_logowania": {
+        "login": "adabrowski",
+        "haslo": "$2a$10$Mlsn927bsk3..."
+      },
+      "recenzja_id": { "$oid": "607f1f77bcf86cd799432006" },
+      "idWypozyczenie": { "$oid": "507f1f77bcf86cd799439016" },
+      "rezerwacja": {
+        "nr_w_kolejce": 3,
+        "status": "aktywna",
+        "data_utworzenia": "2024-02-10",
+        "idCzytelnik": { "$oid": "607f1f77bcf86cd799431006" },
+        "idPozycja": { "$oid": "607f1f77bcf86cd799433005" }
+      }
+    }
+    {
+      "_id": { "$oid": "607f1f77bcf86cd799431007" },
+      "imie": "Magdalena",
+      "nazwisko": "Wójcik",
+      "pesel": "93070712345",
+      "data_ur": "1993-07-07",
+      "plec": "K",
+      "miejscowość": "Łódź",
+      "ulica": "Piotrkowska",
+      "nr_domu": "32",
+      "nr_mieszkania": "8",
+      "dane_logowania": {
+        "login": "mwojcik",
+        "haslo": "$2a$10$Nkqp28snk42..."
+      },
+      "recenzja_id": { "$oid": "607f1f77bcf86cd799432007" },
+      "idWypozyczenie": { "$oid": "507f1f77bcf86cd799439017" },
+      "rezerwacja": {
+        "nr_w_kolejce": null,
+        "status": null,
+        "data_anulowania": null,
+        "data_utworzenia": null,
+        "data_realizacji": null,
+        "idCzytelnik": { "$oid": "607f1f77bcf86cd799431007" },
+        "idPozycja": null
+      }
+    }
+    {
+      "_id": { "$oid": "607f1f77bcf86cd799431008" },
+      "imie": "Tomasz",
+      "nazwisko": "Kamiński",
+      "pesel": "89080845678",
+      "data_ur": "1989-08-08",
+      "plec": "M",
+      "miejscowość": "Szczecin",
+      "ulica": "Wały Chrobrego",
+      "nr_domu": "3",
+      "nr_mieszkania": null,
+      "dane_logowania": {
+        "login": "tkaminski",
+        "haslo": "$2a$10$Pqsn728snk2..."
+      },
+      "recenzja_id": { "$oid": "607f1f77bcf86cd799432008" },
+      "idWypozyczenie": { "$oid": "507f1f77bcf86cd799439018" },
+      "rezerwacja": {
+        "nr_w_kolejce": 2,
+        "status": "oczekująca",
+        "data_utworzenia": "2024-03-05",
+        "idCzytelnik": { "$oid": "607f1f77bcf86cd799431008" },
+        "idPozycja": { "$oid": "607f1f77bcf86cd799433006" }
+      }
+    }
+    {
+      "_id": { "$oid": "607f1f77bcf86cd799431009" },
+      "imie": "Agnieszka",
+      "nazwisko": "Kaczmarek",
+      "pesel": "94090998765",
+      "data_ur": "1994-09-09",
+      "plec": "K",
+      "miejscowość": "Bydgoszcz",
+      "ulica": "Gdańska",
+      "nr_domu": "45",
+      "nr_mieszkania": "11",
+      "dane_logowania": {
+        "login": "akaczmarek",
+        "haslo": "$2a$10$Qpam28snj72..."
+      },
+      "recenzja_id": { "$oid": "607f1f77bcf86cd799432009" },
+      "idWypozyczenie": { "$oid": "507f1f77bcf86cd799439019" },
+      "rezerwacja": {
+        "nr_w_kolejce": null,
+        "status": "zrealizowana",
+        "data_realizacji": "2024-01-25",
+        "idCzytelnik": { "$oid": "607f1f77bcf86cd799431009" },
+        "idPozycja": { "$oid": "607f1f77bcf86cd799433007" }
+      }
+    }
+    {
+      "_id": { "$oid": "607f1f77bcf86cd799431010" },
+      "imie": "Marcin",
+      "nazwisko": "Zając",
+      "pesel": "90101054321",
+      "data_ur": "1990-10-10",
+      "plec": "M",
+      "miejscowość": "Katowice",
+      "ulica": "Mariacka",
+      "nr_domu": "7",
+      "nr_mieszkania": "4",
+      "dane_logowania": {
+        "login": "mzajac",
+        "haslo": "$2a$10$Rsqp92nsn82..."
+      },
+      "recenzja_id": { "$oid": "607f1f77bcf86cd799432010" },
+      "idWypozyczenie": { "$oid": "507f1f77bcf86cd799439020" },
+      "rezerwacja": {
+        "nr_w_kolejce": 1,
+        "status": "aktywna",
+        "data_utworzenia": "2024-02-20",
+        "idCzytelnik": { "$oid": "607f1f77bcf86cd799431010" },
+        "idPozycja": { "$oid": "607f1f77bcf86cd799433008" }
+      }
+    }

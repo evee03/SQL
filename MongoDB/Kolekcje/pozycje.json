@@ -1,0 +1,223 @@
+
+  {
+    "_id": { "$oid": "607f1f77bcf86cd799436001" },
+    "tytul": "Lalka",
+    "autor": "Bolesław Prus",
+    "opis": "Powieść społeczno-obyczajowa z okresu pozytywizmu.",
+    "rok_wydania": "1890-01-01",
+    "jezyk": "polski",
+    "typ": "ksiazka",
+    "isbn": "9788373271280",
+    "wydawnictwo": "Wydawnictwo Literackie",
+    "kategorie": ["literatura piękna", "klasyka"],
+    "egzemplarze": [
+      {
+        "_id": { "$oid": "707f1f77bcf86cd799437001" },
+        "numer_inwentarzowy": "INV-101",
+        "status": "dostępny",
+        "lokalizacja": {
+          "filia": "Filia nr 1",
+          "regal": "R-2",
+          "półka": "P-3"
+        },
+        "data_dodania": "2023-02-15"
+      },
+      {
+        "_id": { "$oid": "707f1f77bcf86cd799437002" },
+        "numer_inwentarzowy": "INV-102",
+        "status": "wypożyczony",
+        "lokalizacja": {
+          "filia": "Filia nr 3",
+          "regal": "R-1",
+          "półka": "P-5"
+        },
+        "data_dodania": "2023-05-20"
+      }
+    ]
+  }
+  {
+    "_id": { "$oid": "607f1f77bcf86cd799436002" },
+    "tytul": "Lalka",
+    "autor": "Bolesław Prus",
+    "opis": "Powieść społeczno-obyczajowa z okresu pozytywizmu.",
+    "rok_wydania": "1890-01-01",
+    "jezyk": "polski",
+    "typ": "ebook",
+    "format": "EPUB",
+    "rozmiar_pliku": "2.5 MB",
+    "link_dostepu": "https://biblioteka.pl/ebooki/lalka.epub",
+    "dostepnosc": "dostępny",
+    "data_dodania": "2023-04-10",
+    "isbn": "9788373271297"
+  }
+  {
+    "_id": { "$oid": "607f1f77bcf86cd799436003" },
+    "tytul": "Zbrodnia i kara",
+    "autor": "Fiodor Dostojewski",
+    "opis": "Klasyczna powieść psychologiczna rosyjskiego pisarza.",
+    "rok_wydania": "1866-01-01",
+    "jezyk": "polski",
+    "typ": "ksiazka",
+    "isbn": "9788377792506",
+    "wydawnictwo": "Czytelnik",
+    "kategorie": ["literatura rosyjska", "klasyka"],
+    "egzemplarze": [
+      {
+        "_id": { "$oid": "707f1f77bcf86cd799437003" },
+        "numer_inwentarzowy": "INV-201",
+        "status": "dostępny",
+        "lokalizacja": {
+          "filia": "Filia nr 2",
+          "regal": "R-4",
+          "półka": "P-2"
+        },
+        "data_dodania": "2023-01-05"
+      }
+    ]
+  }
+  {
+    "_id": { "$oid": "607f1f77bcf86cd799436004" },
+    "tytul": "Zbrodnia i kara",
+    "autor": "Fiodor Dostojewski",
+    "opis": "Klasyczna powieść psychologiczna rosyjskiego pisarza.",
+    "rok_wydania": "1866-01-01",
+    "jezyk": "polski",
+    "typ": "audiobook",
+    "format": "MP3",
+    "lektor": "Krzysztof Gosztyła",
+    "czas_trwania": "22:30:00",
+    "link_dostepu": "https://biblioteka.pl/audiobooki/zbrodnia_i_kara.mp3",
+    "dostepnosc": "dostępny",
+    "data_dodania": "2023-03-12"
+  }
+  {
+    "_id": { "$oid": "607f1f77bcf86cd799436005" },
+    "tytul": "Wiedźmin: Ostatnie życzenie",
+    "autor": "Andrzej Sapkowski",
+    "opis": "Pierwszy zbiór opowiadań z cyklu o wiedźminie Geralcie.",
+    "rok_wydania": "1993-01-01",
+    "jezyk": "polski",
+    "typ": "ksiazka",
+    "isbn": "9788375780635",
+    "wydawnictwo": "SuperNOWA",
+    "kategorie": ["fantasy", "literatura polska"],
+    "egzemplarze": [
+      {
+        "_id": { "$oid": "707f1f77bcf86cd799437004" },
+        "numer_inwentarzowy": "INV-301",
+        "status": "dostępny",
+        "lokalizacja": {
+          "filia": "Filia nr 1",
+          "regal": "R-7",
+          "półka": "P-1"
+        },
+        "data_dodania": "2023-07-18"
+      },
+      {
+        "_id": { "$oid": "707f1f77bcf86cd799437005" },
+        "numer_inwentarzowy": "INV-302",
+        "status": "wypożyczony",
+        "lokalizacja": {
+          "filia": "Filia nr 2",
+          "regal": "R-6",
+          "półka": "P-3"
+        },
+        "data_dodania": "2023-08-22"
+      }
+    ]
+  }
+  {
+    "_id": { "$oid": "607f1f77bcf86cd799436006" },
+    "tytul": "Wiedźmin: Ostatnie życzenie",
+    "autor": "Andrzej Sapkowski",
+    "opis": "Pierwszy zbiór opowiadań z cyklu o wiedźminie Geralcie.",
+    "rok_wydania": "1993-01-01",
+    "jezyk": "polski",
+    "typ": "ebook",
+    "format": "MOBI",
+    "rozmiar_pliku": "3.1 MB",
+    "link_dostepu": "https://biblioteka.pl/ebooki/wiedzmin_ostatnie_zyczenie.mobi",
+    "dostepnosc": "dostępny",
+    "data_dodania": "2023-09-05",
+    "isbn": "9788375780642"
+  }
+  {
+    "_id": { "$oid": "607f1f77bcf86cd799436007" },
+    "tytul": "Solaris",
+    "autor": "Stanisław Lem",
+    "opis": "Klasyka science fiction o kontakcie z obcą formą inteligencji.",
+    "rok_wydania": "1961-01-01",
+    "jezyk": "polski",
+    "typ": "ksiazka",
+    "isbn": "9788381162249",
+    "wydawnictwo": "Wydawnictwo Literackie",
+    "kategorie": ["science fiction", "literatura polska"],
+    "egzemplarze": [
+      {
+        "_id": { "$oid": "707f1f77bcf86cd799437006" },
+        "numer_inwentarzowy": "INV-401",
+        "status": "dostępny",
+        "lokalizacja": {
+          "filia": "Filia nr 3",
+          "regal": "R-2",
+          "półka": "P-4"
+        },
+        "data_dodania": "2023-04-15"
+      }
+    ]
+  }
+  {
+    "_id": { "$oid": "607f1f77bcf86cd799436008" },
+    "tytul": "Solaris",
+    "autor": "Stanisław Lem",
+    "opis": "Klasyka science fiction o kontakcie z obcą formą inteligencji.",
+    "rok_wydania": "1961-01-01",
+    "jezyk": "angielski",
+    "typ": "ksiazka",
+    "isbn": "9780156027601",
+    "wydawnictwo": "Mariner Books",
+    "kategorie": ["science fiction", "literatura zagraniczna"],
+    "egzemplarze": [
+      {
+        "_id": { "$oid": "707f1f77bcf86cd799437007" },
+        "numer_inwentarzowy": "INV-501",
+        "status": "dostępny",
+        "lokalizacja": {
+          "filia": "Filia nr 1",
+          "regal": "R-5",
+          "półka": "P-2"
+        },
+        "data_dodania": "2023-06-10"
+      }
+    ]
+  }
+  {
+    "_id": { "$oid": "607f1f77bcf86cd799436009" },
+    "tytul": "Solaris",
+    "autor": "Stanisław Lem",
+    "opis": "Klasyka science fiction o kontakcie z obcą formą inteligencji.",
+    "rok_wydania": "1961-01-01",
+    "jezyk": "polski",
+    "typ": "audiobook",
+    "format": "MP3",
+    "lektor": "Janusz Gajos",
+    "czas_trwania": "8:45:00",
+    "link_dostepu": "https://biblioteka.pl/audiobooki/solaris.mp3",
+    "dostepnosc": "dostępny",
+    "data_dodania": "2023-10-20"
+  }
+  {
+    "_id": { "$oid": "607f1f77bcf86cd799436010" },
+    "tytul": "Czarne oceany",
+    "autor": "Jacek Dukaj",
+    "opis": "Futurystyczna powieść o alternatywnej historii Polski.",
+    "rok_wydania": "2001-01-01",
+    "jezyk": "polski",
+    "typ": "ebook",
+    "format": "PDF",
+    "rozmiar_pliku": "5.2 MB",
+    "link_dostepu": "https://biblioteka.pl/ebooki/czarne_oceany.pdf",
+    "dostepnosc": "dostępny",
+    "data_dodania": "2023-11-15",
+    "isbn": "9788374800411"
+  }

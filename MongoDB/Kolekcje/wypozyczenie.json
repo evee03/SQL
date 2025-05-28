@@ -1,0 +1,147 @@
+
+    {
+      "_id": { "$oid": "507f1f77bcf86cd799439011" },
+      "czytelnik_id": { "$oid": "607f1f77bcf86cd799431001" },
+      "egzemplarz_id": { "$oid": "707f1f77bcf86cd799432001" },
+      "data_wypozyczenia": "2024-01-15",
+      "data_zwrotu": "2024-01-30",
+      "status": "oddane",
+      "po_terminie": false,
+      "kary": []
+    }
+    {
+      "_id": { "$oid": "507f1f77bcf86cd799439012" },
+      "czytelnik_id": { "$oid": "607f1f77bcf86cd799431002" },
+      "egzemplarz_id": { "$oid": "707f1f77bcf86cd799432002" },
+      "data_wypozyczenia": "2024-02-05",
+      "data_zwrotu": "2024-02-20",
+      "status": "oddane",
+      "po_terminie": true,
+      "kary": [
+        {
+          "_id": { "$oid": "807f1f77bcf86cd799433001" },
+          "kwota": 10.50,
+          "data_nalozenia": "2024-02-25",
+          "status": "opłacona",
+          "uwagi": "Zwrot z opóźnieniem 5 dni"
+        }
+      ]
+    }
+    {
+      "_id": { "$oid": "507f1f77bcf86cd799439013" },
+      "czytelnik_id": { "$oid": "607f1f77bcf86cd799431003" },
+      "egzemplarz_id": { "$oid": "707f1f77bcf86cd799432003" },
+      "data_wypozyczenia": "2024-03-01",
+      "data_zwrotu": "2024-03-15",
+      "status": "oddane",
+      "po_terminie": false,
+      "kary": []
+    }
+    {
+      "_id": { "$oid": "507f1f77bcf86cd799439014" },
+      "czytelnik_id": { "$oid": "607f1f77bcf86cd799431004" },
+      "egzemplarz_id": { "$oid": "707f1f77bcf86cd799432004" },
+      "data_wypozyczenia": "2024-03-10",
+      "data_zwrotu": null,
+      "status": "w trakcie",
+      "po_terminie": false,
+      "kary": []
+    }
+    {
+      "_id": { "$oid": "507f1f77bcf86cd799439015" },
+      "czytelnik_id": { "$oid": "607f1f77bcf86cd799431005" },
+      "egzemplarz_id": { "$oid": "707f1f77bcf86cd799432005" },
+      "data_wypozyczenia": "2024-04-05",
+      "data_zwrotu": "2024-04-18",
+      "status": "oddane",
+      "po_terminie": true,
+      "kary": [
+        {
+          "_id": { "$oid": "807f1f77bcf86cd799433002" },
+          "kwota": 5.00,
+          "data_nalozenia": "2024-04-20",
+          "status": "nieopłacona",
+          "uwagi": "Lekkie uszkodzenie okładki"
+        },
+        {
+          "_id": { "$oid": "807f1f77bcf86cd799433003" },
+          "kwota": 5.00,
+          "data_nalozenia": "2024-04-27",
+          "status": "nieopłacona",
+          "uwagi": "Dodatkowa kara za nieterminowe uregulowanie"
+        }
+      ]
+    }
+    {
+      "_id": { "$oid": "507f1f77bcf86cd799439016" },
+      "czytelnik_id": { "$oid": "607f1f77bcf86cd799431006" },
+      "egzemplarz_id": { "$oid": "707f1f77bcf86cd799432006" },
+      "data_wypozyczenia": "2024-01-20",
+      "data_zwrotu": "2024-02-03",
+      "status": "oddane",
+      "po_terminie": false,
+      "kary": []
+    }
+    {
+      "_id": { "$oid": "507f1f77bcf86cd799439017" },
+      "czytelnik_id": { "$oid": "607f1f77bcf86cd799431007" },
+      "egzemplarz_id": { "$oid": "707f1f77bcf86cd799432007" },
+      "data_wypozyczenia": "2024-02-15",
+      "data_zwrotu": "2024-03-01",
+      "status": "oddane",
+      "po_terminie": true,
+      "kary": [
+        {
+          "_id": { "$oid": "807f1f77bcf86cd799433004" },
+          "kwota": 20.00,
+          "data_nalozenia": "2024-03-05",
+          "status": "opłacona",
+          "uwagi": "Zniszczone strony 45-48"
+        }
+      ]
+    }
+    {
+      "_id": { "$oid": "507f1f77bcf86cd799439018" },
+      "czytelnik_id": { "$oid": "607f1f77bcf86cd799431008" },
+      "egzemplarz_id": { "$oid": "707f1f77bcf86cd799432008" },
+      "data_wypozyczenia": "2024-03-25",
+      "data_zwrotu": null,
+      "status": "w trakcie",
+      "po_terminie": false,
+      "kary": []
+    }
+    {
+      "_id": { "$oid": "507f1f77bcf86cd799439019" },
+      "czytelnik_id": { "$oid": "607f1f77bcf86cd799431009" },
+      "egzemplarz_id": { "$oid": "707f1f77bcf86cd799432009" },
+      "data_wypozyczenia": "2024-04-10",
+      "data_zwrotu": "2024-04-24",
+      "status": "oddane",
+      "po_terminie": false,
+      "kary": []
+    }
+    {
+      "_id": { "$oid": "507f1f77bcf86cd799439020" },
+      "czytelnik_id": { "$oid": "607f1f77bcf86cd799431010" },
+      "egzemplarz_id": { "$oid": "707f1f77bcf86cd799432010" },
+      "data_wypozyczenia": "2024-01-05",
+      "data_zwrotu": "2024-01-19",
+      "status": "oddane",
+      "po_terminie": false,
+      "kary": [
+        {
+          "_id": { "$oid": "807f1f77bcf86cd799433005" },
+          "kwota": 12.00,
+          "data_nalozenia": "2024-01-25",
+          "status": "nieopłacona",
+          "uwagi": "Zagubiona zakładka dołączona do książki"
+        },
+        {
+          "_id": { "$oid": "807f1f77bcf86cd799433006" },
+          "kwota": 12.00,
+          "data_nalozenia": "2024-02-01",
+          "status": "nieopłacona",
+          "uwagi": "Dodatkowa kara za brak reakcji"
+        }
+      ]
+    }

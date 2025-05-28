@@ -1,0 +1,71 @@
+
+  {
+    "_id": { "$oid": "607f1f77bcf86cd799434001" },
+    "ocena": 5,
+    "komentarz": "Świetna książka! Polecam każdemu miłośnikowi gatunku.",
+    "idPozycja": { "$oid": "607f1f77bcf86cd799436001" },
+    "idCzytelnik": { "$oid": "607f1f77bcf86cd799431001" }
+  }
+  {
+    "_id": { "$oid": "607f1f77bcf86cd799434002" },
+    "ocena": 4,
+    "komentarz": "Dobra lektura, choć końcówka mogła być lepiej rozwinięta.",
+    "idPozycja": { "$oid": "607f1f77bcf86cd799436002" },
+    "idCzytelnik": { "$oid": "607f1f77bcf86cd799431002" }
+  }
+  {
+    "_id": { "$oid": "607f1f77bcf86cd799434003" },
+    "ocena": 3,
+    "komentarz": "Średnia książka, niektóre wątki były naciągane.",
+    "idPozycja": { "$oid": "607f1f77bcf86cd799436003" },
+    "idCzytelnik": { "$oid": "607f1f77bcf86cd799431003" }
+  }
+  {
+    "_id": { "$oid": "607f1f77bcf86cd799434004" },
+    "ocena": 5,
+    "komentarz": "Absolutne arcydzieło! Przeczytałem jednym tchem.",
+    "idPozycja": { "$oid": "607f1f77bcf86cd799436004" },
+    "idCzytelnik": { "$oid": "607f1f77bcf86cd799431004" }
+  }
+  {
+    "_id": { "$oid": "607f1f77bcf86cd799434005" },
+    "ocena": 2,
+    "komentarz": "Rozczarowanie. Fabuła przewidywalna, postaci płaskie.",
+    "idPozycja": { "$oid": "607f1f77bcf86cd799436005" },
+    "idCzytelnik": { "$oid": "607f1f77bcf86cd799431005" }
+  }
+  {
+    "_id": { "$oid": "607f1f77bcf86cd799434006" },
+    "ocena": 4,
+    "komentarz": "Warta przeczytania, choć początkowo trudno się wciągnąć.",
+    "idPozycja": { "$oid": "607f1f77bcf86cd799436006" },
+    "idCzytelnik": { "$oid": "607f1f77bcf86cd799431006" }
+  }
+  {
+    "_id": { "$oid": "607f1f77bcf86cd799434007" },
+    "ocena": 5,
+    "komentarz": "Rewelacja! Już czekam na kolejną część.",
+    "idPozycja": { "$oid": "607f1f77bcf86cd799436007" },
+    "idCzytelnik": { "$oid": "607f1f77bcf86cd799431007" }
+  }
+  {
+    "_id": { "$oid": "607f1f77bcf86cd799434008" },
+    "ocena": 1,
+    "komentarz": "Strasznie nudna. Nie mogłem doczytać do końca.",
+    "idPozycja": { "$oid": "607f1f77bcf86cd799436008" },
+    "idCzytelnik": { "$oid": "607f1f77bcf86cd799431008" }
+  }
+  {
+    "_id": { "$oid": "607f1f77bcf86cd799434009" },
+    "ocena": 3,
+    "komentarz": "Może być. Nie zachwyca, ale też nie rozczarowuje.",
+    "idPozycja": { "$oid": "607f1f77bcf86cd799436009" },
+    "idCzytelnik": { "$oid": "607f1f77bcf86cd799431009" }
+  }
+  {
+    "_id": { "$oid": "607f1f77bcf86cd799434010" },
+    "ocena": 4,
+    "komentarz": "Dobry styl autora, wciągająca historia.",
+    "idPozycja": { "$oid": "607f1f77bcf86cd799436010" },
+    "idCzytelnik": { "$oid": "607f1f77bcf86cd799431010" }
+  }
