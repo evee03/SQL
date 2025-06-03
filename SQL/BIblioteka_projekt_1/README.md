@@ -15,4 +15,5 @@ System zarządzania biblioteką zbudowany w oparciu o relacyjną bazę danych My
 - Tworzenie zapytań SQL
 - Modelowanie związków między tabelami
 
+---
 *Projekt został wykonany w zespole grupowych w ramach zaliczenia przedmiotu na studiach*

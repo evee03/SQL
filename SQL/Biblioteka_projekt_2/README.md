@@ -18,5 +18,5 @@ Kolejny projekt związany z systemem bibliotecznym. Szczegółowy opis projektu 
 - Tworzenie zapytań SQL
 - Analiza wymagań biznesowych
 
-
+---
 *Projekt został wykonany w zespole grupowym w ramach zaliczenia przedmiotu na studiach*

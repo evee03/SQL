@@ -26,5 +26,4 @@ Praktyczne ćwiczenie złożonych zapytań SQL i analizy danych biznesowych.
 - Trendy czasowe sprzedaży
 - Segmentacja klientów
 
----
 *Projekt demonstruje praktyczne umiejętności pisania zapytań SQL do analizy danych biznesowych*
